@@ -1,0 +1,46 @@
+﻿<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Family game</title>
+		<style type="text/css">
+			area {
+            cursor: pointer;
+			}
+			
+			img {
+            display: block;
+            margin: 0 auto;
+			}
+		</style>
+		<script>			
+			function test1() {
+				document.location.href = "./столовая_.html";
+			}			
+			function test2() {
+				document.location.href = "./зал.html";
+			}			
+			function test3() {
+				document.location.href = "./комната рика.html";
+			}			
+			function test4() {
+				document.location.href = "./кухня.html";
+			}
+		</script>
+	</head>
+	
+	<body style="margin: 0;"> 
+		<img src="./img/hm/столовая.png" alt="home" usemap="#Navigation">
+		
+		<p>
+			<map name="Navigation">
+				
+				<area shape="poly" onclick="test1()" coords="48,229,144,266,145,310,46,314">
+<area shape="poly" onclick="test2()" coords="48,487,153,486,152,538,120,542,119,551,80,552,81,543,47,542">
+<area shape="poly" onclick="test3()" coords="890,565,871,602,877,646,937,643,980,664,1001,651,981,631,968,602,961,573">
+<area shape="poly" onclick="test4()" coords="1130,270,1129,381,1189,381,1186,270">
+
+			</p>
+		</body>
+		
+	</html>
