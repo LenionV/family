@@ -1,0 +1,275 @@
+img {
+	display: block;
+	margin: 0 auto;
+	
+}
+
+#ma{
+	display:none;  z-index: 3;
+	position: absolute;
+	top: 120px;
+	left: 550px;
+	width: 180px; 
+	height: 600px; 
+}
+#pa{
+	display:none; z-index: 3;
+	position: absolute;
+	top: 120px;
+	left: 550px;
+	width: 180px; 
+	height: 600px; 
+}
+#s1{
+	 display:none;  z-index: 3;
+	position: absolute;
+	top: 170px;
+	left: 555px;
+	width: 170px; 
+	height: 550px; 
+}
+#s2{
+	display:none;  z-index: 3;
+	position: absolute;
+	top: 270px;
+	left: 562px;
+	width: 155px; 
+	height: 450px; 
+}
+#end{
+	display:none; z-index: 3;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+
+#start{
+	display:block; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#garaz{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#zal{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#kabinet{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#hlam{
+	display:none;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#kyxna{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#spalna{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#moa_komhata{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#sestra{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#stolovaa{
+	display:none; 
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#tyalet{
+	display:none;  
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+/* ===================================================== */
+
+#q1{
+	/* display:none;  */
+	position: absolute;
+	top: 151px;
+	left: 300px;
+	width:675px;
+	height:370px;
+}
+#q2{
+	display:none; 
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	width:120px; 
+	height:120px;
+}
+#q3{
+	display:none; 
+	position: absolute;
+	top: 500px;
+	left: 50px;
+	width:120px; 
+	height:90px;
+}
+#q4{
+	display:none; 
+	position: absolute;
+	top: 540px;
+	left: 870px;
+	width:150px; 
+	height:130px;
+}
+#q5{
+	display:none; 
+	position: absolute;
+	width:70px; 
+	top: 90px;
+	left: 185px;
+	height: 110px;
+}
+#q6{
+	display:none;
+	position: absolute;
+	height:130px;
+	top: 190px;
+	left: 270px;
+	width: 100px;
+}
+#q7{
+	display:none; 
+	position: absolute;
+	top: 350px;
+	left: 170px;
+	width: 100px;
+	height: 100px;
+}
+#q8{
+	display:none; 
+	position: absolute;
+	top: 340px;
+	left: 30px;
+	width:120px; 
+	height:120px;
+}
+#q9{
+	display:none; 
+	position: absolute;
+	top: 520px;
+	left: 50px;
+	width:120px; 
+	height:120px;
+}
+#q10{
+	display:none; 
+	position: absolute;
+	top: 450px;
+	left: 130px;
+	width:120px; 
+	height:120px;
+}
+#q11 {
+	display:none; 
+	position: absolute;
+	top: 570px;
+	left: 50px;
+	width:90px; 
+	height:130px;
+}
+#q12{
+	display:none; 
+	position: absolute;
+	top: 220px;
+	left: 170px;
+	width: 90px;
+	height: 110px;
+}
+#q13{
+	display:none; 
+	position: absolute;
+	height:120px;
+	top: 235px;
+	left: 840px;
+	width: 80px;
+}
+#q14{
+	display:none; 
+	position: absolute;
+	top: 450px;	
+	right: 30px;
+	width: 110px;
+	height: 110px;
+}
+#q15 {
+	display:none; z-index: 2;
+		position: absolute;
+	top: 330px;
+	left: 675px;
+	width: 100px;
+	height: 120px;
+}
+#q16 {
+	display:none; z-index: 2;
+		position: absolute;
+	top: 570px;
+	left: 729px;
+	width:120px; 
+	height:90px;
+}
+#q17 {
+	display:none; 
+			position: absolute;
+	top: 370px;
+	left: 770px;
+	width:120px; 
+	height:90px;
+}
+#q18 {
+	display:none; 
+			position: absolute;
+	top: 580px;
+	left: 200px;
+	width:100px; 
+	height:90px;
+}
+#q19 {
+	display:none; 
+	position: absolute;
+	height:120px;
+	top: 450px;
+	right: 50px;
+	width: 80px;
+}
+#q20 {
+	display:none; 
+	position: absolute;
+	top: 560px;
+	left: 50px;
+	width:120px; 
+	height:90px;
+}
