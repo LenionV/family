@@ -1,0 +1,34 @@
+<title>Family game</title>
+<style>
+	body{
+	margin:0px;
+	}
+	#index{
+	z-index: 2;
+	position: relative;
+	}
+	
+	
+	img.background {
+	min-height: 100%;
+	min-width: 640px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	}
+	
+	
+</style>
+<audio autoplay> 
+		<<source src="img/audio/1.ogg" type='audio/ogg; codecs=vorbis'> 
+		<source src="img/audio/1.mp3" type="audio/mpeg"> 
+</audio> 
+<img src="img/bg.jpg" class="background" />
+<div id="index">
+	<center>
+		<iframe src="game.html" width="1280" height="720" align="center">
+		</center>
+	</div>
