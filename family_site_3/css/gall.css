@@ -1,0 +1,132 @@
+
+.wrapper2 {
+	display:grid;
+	padding:30px 40px 30px 20px;
+	grid-template-columns:30% 70%;
+	grid-template-rows: 420px;
+    row-gap: 120px;
+	column-gap: 20px;
+	background:#F5F5F5;
+}
+@media (max-width: 830px) {
+	.wrapper2 {
+		grid-template-columns:repeat(1,1fr);
+		grid-template-rows: 400px;
+		row-gap: 80px;
+		column-gap: 100px;
+	}
+
+}
+
+#gall{
+	display: block;
+	font-size: 24px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	color: #1B1B23;
+	padding: 10px 20px 10px 20px;
+	height: 0;
+background: none;
+}
+
+#imgq3{
+	background-image: url(../img/start.png); 
+	background-size:cover;
+	background-position:center;
+	background-repeat : no-repeat;
+	height:250px;
+	margin:10px;
+	border-radius:30px;
+}
+@media (max-width: 630px) {
+	.wrapper2 div:nth-child(1) {
+		/* border-radius:5px; */
+		background:#FFFFFF; 
+		height:400px;
+		border-radius:20px;
+	}
+	
+	.wrapper2 div:nth-child(2) {
+		/* border-radius:5px; */
+		 background:#FFFFFF; 
+		height:400px;
+		border-radius:20px;
+	}
+
+}
+
+.wrapper2 div:nth-child(1) {
+	/* border-radius:5px; */
+	 background:#FFFFFF; 
+	height:450px;
+	border-radius:20px;
+}
+
+.wrapper2 div:nth-child(2) {
+	/* border-radius:5px; */
+	 background:#FFFFFF;
+	height:450px;
+	border-radius:20px;
+}
+
+/* ========================================================================================================= */
+
+
+.wrapper3 {
+	display:grid;
+	padding:30px 40px 30px 20px;
+	grid-template-columns:70% 30%;
+	grid-template-rows: 450px;
+    row-gap: 120px;
+	column-gap: 20px;
+	background:#F5F5F5;
+}
+@media (max-width: 830px) {
+	.wrapper3 {
+		grid-template-columns:repeat(1,1fr);
+		grid-template-rows: 400px;
+		row-gap: 80px;
+		column-gap: 100px;
+	}
+
+}
+
+#imgq3{
+	background-image: url(../img/start.png); 
+	background-size:cover;
+	background-position:center;
+	background-repeat : no-repeat;
+	height:250px;
+	margin:10px;
+	border-radius:30px;
+}
+@media (max-width: 630px) {
+	.wrapper3 div:nth-child(1) {
+		/* border-radius:5px; */
+		background:#FFFFFF; 
+		height:400px;
+		border-radius:20px;
+	}
+	
+	.wrapper3 div:nth-child(2) {
+		/* border-radius:5px; */
+		 background:#FFFFFF; 
+		height:400px;
+		border-radius:20px;
+	}
+
+}
+
+.wrapper3 div:nth-child(1) {
+	/* border-radius:5px; */
+	 background:#FFFFFF; 
+	height:450px;
+	border-radius:20px;
+}
+
+.wrapper3 div:nth-child(2) {
+	/* border-radius:5px; */
+	 background:#FFFFFF;
+	height:450px;
+	border-radius:20px;
+}

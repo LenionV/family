@@ -1,0 +1,25 @@
+body{
+}
+#bluetext{
+	padding:35px 20px 20px 100px;
+	color:#11CEC8;
+	font-size: 40px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	background:#F5F5F5;
+}
+#botom{
+	height:100px;
+}
+#bgpu {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,25%);
+}
+
+#rait
+{
+	position:absolute;
+	right:0px;
+	padding:40px;
+}

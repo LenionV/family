@@ -1,0 +1,128 @@
+.container {
+
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
+    grid-template-rows: repeat(2, 400px);
+	
+}
+#menu{
+position: fixed;
+top:10px;
+}
+.tov {
+	z-index:1;
+	background:#D2D1D1;
+	padding-top: 20px;
+	
+}
+.tov:hover {
+	  transition: all 0.3s ease-out;
+  /* border-top-left-radius: 100% 20px; */
+  /* border-bottom-right-radius: 100% 20px; */
+  /* border-radius: 50px; */
+  transform: scale(0.95, 0.95);
+  background:#B0B0B0;
+
+}
+#logoimg{
+	height:100px;
+	width:100px;
+}
+#soc{
+	height:40px;
+	width:40px;
+		margin-right:10px;
+	/* margin-left:40px; */
+}
+#soc1{
+	position: fixed; /* Фиксированное положение */
+    right: 10px; /* Расстояние от правого края окна браузера */
+    top: 10px;
+			z-index:2;
+}
+
+#imgtov{
+
+	height:280px;
+	width:280px;
+}
+#imgtov:hover{
+transform: scale(1.1, 1.1);
+  transition: all 0.3s ease-out;
+
+}
+#slidimg{
+
+	width:90%;
+}
+#name{
+	margin-top:15px;
+	font-size: 24px; 
+	font-style:italic;
+}
+#num{font-size:16px; font-weight:normal;color:#383F45;font-family: 'Yanone Kaffeesatz', sans-serif;}
+#log{
+	text-align:center;
+	font-size:170px; font-weight:bold;color:#383F45; font-style:italic; 
+	text-shadow: 2px 2px 0px #FFFFFF;
+	}
+	#log:hover{ 
+	text-shadow: 2px 2px 0px #FFF, 5px 4px 0px rgba(0,0,0,0.15), 20px 20px 8px rgba(0, 0, 0, 0.56);
+	  transition: all 0.3s ease-out;
+	}
+	
+#kon{font-size:40px; font-weight:bold;color:#383F45; font-style:italic;text-align: right;}
+#tab{
+border-spacing: 20px 0em;	
+width:100%;
+}
+a{
+	text-decoration:none;
+}
+
+#slid{
+	width:100%;
+}
+#slid1{
+	text-align:right;
+	width:25%;
+}
+#slid2{
+	text-align:left;
+	width:21%;
+}
+
+#footer	{
+	
+	height:150px;
+		font-size: 110px; 
+		text-align:center;
+padding-top:20px;
+padding-bottom:20px;
+}
+#f1{
+	text-align:left;
+	font-size: 110px; 
+	padding-left:20%;
+	padding-right:20px;
+}
+#f2{
+	text-align:center;
+	font-size: 110px; 
+		padding-left:20px;
+	padding-right:20px;
+}
+#f3{
+	text-align:right;
+	font-size: 110px; 
+		padding-left:20px;
+	padding-right:20%;
+}
+
+#pod1{
+		margin-top:80px;
+		height:150px;
+		font-size: 110px; 
+		text-align:center;
+}

@@ -1,0 +1,75 @@
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Family game</title>
+		<link rel="stylesheet" href="css/menu.css" type="text/css" />
+		<link rel="stylesheet" href="css/test-game.css" type="text/css" />
+		<link rel="stylesheet" href="css/rand.css" type="text/css" />
+		<link rel="stylesheet" href="css/gall.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<script src="js/script.js"></script>
+						<style>
+						html{overflow-y: hidden;}
+	body{
+	margin:0px;
+	}
+	#index{
+	z-index: 2;
+	position: relative;
+	top:80px;
+	<!-- background:#12CBC5; -->
+	}
+	
+	
+	img.background {
+	min-height: 100%;
+	min-width: 640px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	}
+	.top-menu {
+	position: fixed;
+	background: #F5F6FA;
+	width: 100%;
+	margin-top: 0px; 
+	z-index: 5;
+}
+	
+</style>
+	</head>
+	
+	<body >     
+		<nav class="top-menu">
+			<ul class="menu-main">
+				<li class="left-item"><a href="local.html">Места</a></li>
+				<li class="left-item"><a href="game.html">Игра</a></li>
+				<li class="right-item"><a href="test.html">Тест</a></li>
+				<li class="right-item"><a href="kon.html">Контакты</a></li>
+			</ul>
+			<a class="navbar-logo" href="index.html"><img src="img/logo.png" height="70" width="70"></a>
+		</nav>
+		<img src="game/img/bg.jpg" class="background" />
+
+<audio autoplay> 
+		<<source src="game/img/audio/1.ogg" type='audio/ogg; codecs=vorbis'> 
+		<source src="game/img/audio/1.mp3" type="audio/mpeg"> 
+</audio> 
+<div id="index">
+	<center>
+		<iframe src="game/game.html" width="1280" height="720" align="center" border="0">
+		</center>
+	</div>
+		
+		
+
+
+
+
+</body>
+
+</html>
